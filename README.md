@@ -8,4 +8,4 @@ A simple to do list made in javascript
 
 ## Live Demos
 
-https://raw.githack.com/DenisCuencaBrex/todo-list/master/index.html
+https://raw.githack.com/DenisCuencaBrex/todo-list/development/index.html
