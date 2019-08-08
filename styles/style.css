@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #4e94ec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: "eurostile", sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.input-div {
+    justify-content: center;
+    display: flex;
+}
+
+.input {
+    border-radius: 40px;
+    border: 1px solid black;
+    width: 254px;
+    height: 33px;
+    background: white;
+    margin-right: 1em;
+}
+
+.addBtn {
+    color: greenyellow;
+    background: gray;
+    border-radius: 18px;
+    width: 41px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3.3em;
+    margin-top: 0.5em;
+}
+
+.item-input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 241px;
+    height: 33px;
+    background: #4e94ec;
+    margin-left: 1.5em;
+}
+
+.editBtn {
+    margin: 1em;
+    border-radius: 12px;
+    width: 40px;
+    height: 24px;
+}
+
+.removeBtn {
+    border-radius: 12px;
+    width: 55px;
+    height: 24px;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 768px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 769px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 1088px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
